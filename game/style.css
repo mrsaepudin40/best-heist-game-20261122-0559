@@ -1,0 +1,19 @@
+/* style.css — one job: the page around the canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #05070d; }
+body {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  color: #e8ecf5;
+  display: flex;
+  justify-content: center;
+}
+#stage { padding: 12px; text-align: center; }
+#game {
+  display: block;
+  background: #0b0f18;
+  border: 2px solid #2a3348;
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+#help { color: #9db8e8; font-size: 13px; margin: 10px 0 0; }
